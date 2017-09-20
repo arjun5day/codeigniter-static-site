@@ -1,0 +1,134 @@
+body {
+	padding:0;
+	margin:0;
+	background-color:#9999CC;
+	color:#000000;
+	}
+h3 {
+	background-color:#0099FF;
+	text-align:center;
+	text-decoration:underline;
+	margin-top:0px;
+	border-radius:10px;
+	}
+h4 {
+	background-color:#0099FF;
+	text-align:center;
+	text-decoration:underline;
+}
+font {
+	color:#000000;
+	}
+p {
+	margin:5px;
+	}
+/*
+navbar styling
+*/
+.container {
+margin:0 auto;
+padding:0;
+}
+.navbar {
+	background-color:#006699;
+	}
+.navbar-nav {
+	}
+.navbar navbar-nav active {
+	background-color:#FF0000;
+	}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus {
+color: #000;  /*Sets the text hover color on navbar*/
+	}	
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #0099FF;/*sets the active background color*/
+	}
+	
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #0099FF;/*sets the dropmenu background color*/
+  }	
+.thumbnailbox {
+	background-color:#9999CC;
+	border:1px solid #0000FF;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	padding:5px;
+	margin:2px;
+	overflow:hidden;
+	}
+/*
+thumbnail box styling
+*/
+.thumbnail img:hover{
+	transform:scale(1.1);
+	}
+.thumbnail img {
+	transition: all 0.3s case 0s;
+	}
+.thumbnail {
+	overflow:hidden;
+	}	
+/*
+box styling
+*/
+.box {
+	background-color:#9999CC;
+	border:1px solid #0000FF;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	padding:8px;
+	margin:2px;
+	}
+.box h3 {
+	padding:5px;
+	}
+.box li a {
+	text-decoration:none;
+	color:#000000;
+	}
+.box li a:hover {
+	text-decoration:underline
+	}
+.nav-pills li{
+	background-color:#006699;
+}
+.nav-pills li a{
+	color:#FFFFFF;
+	}
+.nav-pills li a:hover {
+	color:#000000;
+	background-color:#0099FF;
+	text-decoration:underline;
+	}
+	
+.togglehead {
+	background-color:#006699;
+	border:2px solid #0000FF;
+	text-align:center;
+	}
+.togglehead h4 {
+	background-color:#006699;
+}
+.togglebody{
+	}
+.togglehead2 {
+	background-color:#006699;
+	border:2px solid #0000FF;
+	text-align:center;
+	}
+.togglehead2 h4 {
+	background-color:#006699;
+}
+.togglebody2{
+	}	
+i {
+	margin:5px;
+	color:#FFFFFF;
+	}
+i:hover{
+	color:#0099FF;
+	}

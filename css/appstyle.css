@@ -1,0 +1,62 @@
+/* CSS Document */
+body {
+	padding:0;
+	margin:0;
+	background-color:#9999CC;
+	color:#000000;
+	}
+h3 {
+	background-color:#0099FF;
+	text-align:center;
+	text-decoration:underline;
+	}
+h4 {
+	background-color:#0099FF;
+	text-align:center;
+	text-decoration:underline;
+}
+font {
+	color:#000000;
+	}
+/*
+navbar styling
+*/
+.container {
+margin:0 auto;
+padding:0;
+}
+.navbar {
+	background-color:#006699;
+	}
+.navbar-nav {
+	}
+.navbar navbar-nav active {
+	background-color:#FF0000;
+	}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus {
+color: #000;  /*Sets the text hover color on navbar*/
+	}	
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #0099FF;/*sets the active background color*/
+	}
+	
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #0099FF;/*sets the dropmenu background color*/
+  }	
+input {
+	height:35px;
+	font-size:16px;
+	border-radius:5px;
+	padding:5px;
+	margin:5px;
+	background-color:#FFFFFF;
+	}
+input:hover {
+	background-color:#CCCCCC;
+	}
+form {font-size:18px;}
+.error {
+	color:#FF0000;
+	}
